@@ -21,9 +21,8 @@ const LineBreak = "\r\n"
 const createdDir = "converted"
 
 func main() {
-	var fileName string
 
-	fmt.Print("")
+	var fileName string
 	dirname := "." + string(filepath.Separator)
 
 	d, err := os.Open(dirname)
